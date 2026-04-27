@@ -1,0 +1,59 @@
+html {
+  scroll-behavior: smooth;
+}
+.black-box {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+}
+.carousel-caption h2 {
+  margin-bottom: 10px;
+}
+.black-box {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+.black-box {
+  background: rgba(0, 0, 0, 0.8); /* black box */
+  padding: 15px 25px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.black-box h2,
+.black-box p {
+  color: #fff;
+  margin: 0;
+}
+.box {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  color: #fff;
+}
+
+/* Heading box */
+.heading-box {
+  margin-bottom: 10px; /* gap between boxes */
+}
+
+/* Paragraph box */
+.para-box {
+  font-size: 14px;
+}
+.service-card {
+  background-color: blue;
+  color: white;
+}
+.service-card {
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background-color: black; /* hover pe change */
+  color: white;
+}
