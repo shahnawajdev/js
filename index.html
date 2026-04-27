@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Graphic Gems - Printing Experts</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581093588401-22c2d76d3e59');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    .service-card {
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .footer {
+      background: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .btn-custom {
+      background: #ff4d00;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background: #e63e00;
+    }
+  </style>
+</head>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/918193093913" target="_blank" class="whatsapp-float">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+.whatsapp-float:hover {
+  background: #1ebe5d;
+}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Graphic Gems</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">login</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<!-- Carousel -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+        <img src="myimage.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+   <div class="carousel-caption">
+  
+  <div class="black-box">
+    <h2>Graphic Gems</h2>
+    <p>We print your Idea</p>
+  </div>
+
+</div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="myimage1.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+    <div class="carousel-caption">
+  
+  <div class="black-box">
+    <h2>T-Shirt Printing</h2>
+    <p>Custom Designs Available</p>
+  </div>
+
+</div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="myimage2.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption">
+        <div class="black-box">
+        <h2>High Quality Prints</h2>
+        <p>Bottles, Frames & More</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<!-- Services -->
+ <!-- Portfolio -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Our Work</h2>
+
+    <div class="row g-3">
+
+      <div class="col-md-4">
+        <img src="image3.jpeg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-4">
+        <img src="image4.jpeg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-4">
+        <img src="image5.jpeg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-4">
+        <img src="image6.jpeg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-4">
+        <img src="image7.jpeg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-4">
+        <img src="image8.jpeg" class="img-fluid rounded">
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Our Services</h2>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card service-card p-3">
+          <h5>T-Shirt Printing</h5>
+          <p>Custom printed t-shirts with high-quality designs.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card service-card p-3">
+          <h5>Mug Printing</h5>
+          <p>Personalized mugs for gifts and business branding.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card service-card p-3">
+          <h5>Bottle Printing</h5>
+          <p>Stylish printed bottles with custom designs.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card service-card p-3">
+          <h5>Frame Printing</h5>
+          <p>High-quality photo frames with custom prints.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="bg-dark text-white text-center py-5">
+  <h2>Need Custom Printing?</h2>
+  <p>Contact us now and get the best printing services in your city.</p>
+  <a href="contact.html" class="btn btn-custom">Contact Now</a>
+</section>
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-4">
+        <h5>Graphic Gems</h5>
+        <p>We provide high-quality printing services for T-Shirts, Mugs, Bottles & Frames.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <h5>Contact Info</h5>
+        <p>📍 Shop No 1 kacheri ghat near jagdish band , Agra 282003</p>
+        <p>📞 +91 8193093913</p>
+        <p>📧 graphicgems04@email.com</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+      <p>© 2024 Graphic Gems | All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer CSS -->
+<style>
+.footer-section {
+  background: #111;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-section h5 {
+  margin-bottom: 15px;
+}
+
+.footer-section a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section p {
+  font-size: 14px;
+}
+</style>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
